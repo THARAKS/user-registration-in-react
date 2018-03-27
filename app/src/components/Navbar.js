@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 
 class Navbar extends Component{
   render(){
-    console.log(this)
-    // let isActive = this.context.router.isActive(this.props.to, true);
-    // let className = isActive ? "active" : "";
-
+   
     return (
       <div>
         <nav className="blue darken-3">

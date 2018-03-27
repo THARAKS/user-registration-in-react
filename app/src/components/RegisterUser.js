@@ -13,8 +13,6 @@ export default class RegisterUser extends Component {
     };
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
-
-
   }
 
   validateForm() {
@@ -39,10 +37,8 @@ export default class RegisterUser extends Component {
     return (
 
       <div className="Login">
-
         <form onSubmit={this.handleSubmit}>
         <div className="form-group  card-panel #ff1744 red accent-3 center" >Please Register to Continue</div>
-
           <FormGroup controlId="email" bsSize="large">
             <ControlLabel>Email</ControlLabel>
             <FormControl

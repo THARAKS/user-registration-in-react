@@ -35,25 +35,17 @@ class Login extends Component {
         }
         else {
             this.props.history.push('/')
-            alert("Please Register to login")
-            console.log("please register")
-
+            alert("User does not exist Please Register to login")
 
         }
-
-
     }
 
 
     render() {
-
         return (
-
             <div className="Login">
-
                 <form onSubmit={this.handleSubmit}>
-                    <div className="ownmar form-group card-panel #ff1744 red accent-3 center" >Please Login to Continue</div>
-
+                 <div className="ownmar form-group card-panel #ff1744 red accent-3 center" >Please Login to Continue</div>
                     <FormGroup controlId="email" bsSize="large">
                         <ControlLabel>Email</ControlLabel>
                         <FormControl
@@ -66,16 +58,16 @@ class Login extends Component {
                     <FormGroup controlId="password" bsSize="large">
                         <ControlLabel>Password</ControlLabel>
                         <FormControl
-                        className="custum"
+                            className="custum"
                             value={this.state.password}
                             onChange={this.handleChange}
                             type="password"
                         />
                     </FormGroup>
-                   
-                <button className="btn waves-effect #ff1744 red accent-3"
-                  disabled={!this.validateForm()}
-                 type="submit" name="action">Login
+                 <button 
+                    className="btn waves-effect #ff1744 red accent-3"
+                    disabled={!this.validateForm()}
+                    type="submit" name="action">Login
                 </button>
                 </form>
             </div>
