@@ -1,0 +1,51 @@
+{
+  "name": "user-registration-in-react",
+  "version": "1.0.0",
+  "description": "A simple website on react ,react router to register a user with help of react library",
+  "main": "./app/src/js/index.js",
+  "scripts": {
+    "start": "webpack -w --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THARAKS/user-registration-in-react.git"
+  },
+  "keywords": [
+    "react",
+    "login",
+    "page",
+    "react",
+    "router",
+    "examples",
+    "react",
+    "user",
+    "registration",
+    "page"
+  ],
+  "author": "Thara",
+  "license": "    MIT",
+  "bugs": {
+    "url": "https://github.com/THARAKS/user-registration-in-react/issues"
+  },
+  "homepage": "https://github.com/THARAKS/user-registration-in-react#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "local-storage": "^1.4.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  }
+}

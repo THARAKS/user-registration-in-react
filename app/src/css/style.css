@@ -1,0 +1,38 @@
+body{
+   background-color: #424242;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+      border: 1 px solid grey ;
+
+    }
+  }
+.custum{
+    color: floralwhite;
+}
+  Button{
+      color:#ff3d00
+  }
+  
+
+    .ownmar{
+        margin-top: -2px;
+    }
+
+    label
+    {
+       color: #76ff03   ;
+             font-size: 16px;
+    }
+    
+    nav ul li a:active {
+        background-color: red ;
+    }
