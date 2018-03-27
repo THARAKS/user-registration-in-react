@@ -4,9 +4,6 @@ import { withRouter } from "react-router-dom";
 import { Redirect } from 'react-router';
 
 
-import css from '../css/style.css';
-
-
 class Login extends Component {
     constructor(props) {
         super(props)
@@ -32,7 +29,7 @@ class Login extends Component {
         var email = localStorage.getItem("email");
         var pwd = localStorage.getItem("password");
         if ((email === this.state.email) && (pwd === this.state.password)) {
-            console.log("user is alredy regiestereed")
+            console.log("user is alredy registered")
             this.props.history.push('/DashBoard')
 
         }
@@ -40,7 +37,7 @@ class Login extends Component {
             this.props.history.push('/')
             alert("Please Register to login")
             console.log("please register")
-            
+
 
         }
 

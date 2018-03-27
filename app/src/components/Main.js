@@ -14,8 +14,6 @@ const Main = () => (
       <Route exact path='/RegisterUser' component={RegisterUser} />
       <Route exact path='/DashBoard' component={DashBoard} />
       <Route path='*' to={Login} />
-
-     
     </Switch>
   </main>
 )
